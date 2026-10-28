@@ -1,0 +1,46 @@
+{
+  "format": "netflix-tivo-copy-patch-v1",
+  "input_size": 107854661,
+  "input_sha256": "f1125b8a415ed6bc78c330f20ec1759b593d1a7252071799e53f532ccdc2966d",
+  "output_size": 107854661,
+  "output_sha256": "878f427dc765b2e2186d88e39fd0e079aaed76ee760c4191de77e08d690414e1",
+  "payload_sha256": "b2b870cc80896ad80f9b92e066baab9dba251b58eb6c905d72142c56fa945799",
+  "operations": [
+    {
+      "copy": [
+        0,
+        9353083
+      ]
+    },
+    {
+      "data": [
+        0,
+        21580
+      ]
+    },
+    {
+      "copy": [
+        9375879,
+        7969936
+      ]
+    },
+    {
+      "data": [
+        21580,
+        6057
+      ]
+    },
+    {
+      "copy": [
+        17350656,
+        90386432
+      ]
+    },
+    {
+      "data": [
+        27637,
+        117573
+      ]
+    }
+  ]
+}

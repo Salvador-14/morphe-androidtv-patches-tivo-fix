@@ -1,0 +1,23 @@
+Subject: [EXPERIMENT, NOT DEVICE-VERIFIED] Skip ELF linker-notifier hooks on TiVo test build
+
+Equivalent source-level behavior of the two-byte ARM32 Gadget edit.
+Base: frida/frida-gum tag 17.9.1.
+This source patch is provided for review; the delivered APK uses the guarded
+binary edit in repack_tivo_test2.py, not a recompiled Frida build.
+
+Limitation: module tracking stops after initial enumeration/synchronization.
+This intentionally skips all ELF rtld notifiers in this test engine and is
+not a general upstream fix for failed code-deflector allocation.
+
+--- a/gum/backend-elf/gummoduleregistry-elf.c
++++ b/gum/backend-elf/gummoduleregistry-elf.c
+@@ -103,6 +103,9 @@
+ gum_hook_rtld_notifier (const GumRtldNotifierDetails * details,
+                         gpointer user_data)
+ {
++  /* TiVo test 2: avoid installing a linker hook before Gadget config loads. */
++  return;
++
+   gpointer impl = details->location;
+ #if defined (HAVE_I386) || defined (HAVE_ARM64)
+   G_GNUC_UNUSED cs_insn * first_instruction;

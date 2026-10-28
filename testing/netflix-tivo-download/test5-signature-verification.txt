@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=TiVo Netflix Test Builds
+Signer #1 certificate SHA-256 digest: a81c216c9b46bf3e0d1cf14a87c75338c504def7813dace6af45366e862be5f5
+Signer #1 certificate SHA-1 digest: c9797f3c2769cbb4a8c23c48646f3453599577e9
+Signer #1 certificate MD5 digest: af24e2f960a1dd22d1f5335b635ebe01
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 4c6e81fc5c9260fa82d4520aa696fc1454fa22c0af4006170baf9f9c05c5a49d
+Signer #1 public key SHA-1 digest: 1eadddc8716a5f014943e882bab96359b1353382
+Signer #1 public key MD5 digest: 21ed6f3b4686d6abfc6bc41647d32ee1

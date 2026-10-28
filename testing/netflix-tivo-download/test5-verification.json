@@ -1,0 +1,32 @@
+{
+  "test_build": "Netflix-TiVo-test5",
+  "status": "signed and statically verified; TiVo playback testing pending",
+  "package": "com.netflix.ninja.clone",
+  "version_name": "13.0.1 build 25028",
+  "version_code": 25028,
+  "input_apk_sha256": "f1125b8a415ed6bc78c330f20ec1759b593d1a7252071799e53f532ccdc2966d",
+  "apk_sha256": "878f427dc765b2e2186d88e39fd0e079aaed76ee760c4191de77e08d690414e1",
+  "apk_bytes": 107854661,
+  "signing_certificate_sha256": "a81c216c9b46bf3e0d1cf14a87c75338c504def7813dace6af45366e862be5f5",
+  "same_certificate_as_test3": false,
+  "signing_schemes": [
+    "v2",
+    "v3"
+  ],
+  "installation": "fresh clone installation; deletes old clone app data",
+  "changed_app_content_members": [
+    "lib/armeabi-v7a/libgadget.script.so"
+  ],
+  "native_library_identical_to_test3": true,
+  "gadget_configuration_identical_to_test3": true,
+  "gadget_sha256": "4bba056335ae22f8d1355fc59d443d6e899e57b0803f6c515e518b9a24ef4dba",
+  "script_sha256": "d83415d41fb916a7a9cdc51a7535eec25a1d8dd25614057cb6e01cd0ce8dee8b",
+  "tivo_startup_priority_enabled": true,
+  "test3_scan_diagnostics_removed": true,
+  "optional_flags_unchanged": true,
+  "zip_crc_passed": true,
+  "zipalign_passed": true,
+  "signature_verification_passed": true,
+  "script_syntax_check_passed": true,
+  "device_testing": "not performed; logs alone cannot prove ad removal"
+}
