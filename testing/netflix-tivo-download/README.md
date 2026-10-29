@@ -38,6 +38,9 @@ location. Both helpers work locally without network access.
 
 ## Install
 
+For a local Codex session handling ADB installation and test captures, use the
+[local ADB handoff](LOCAL_ADB_HANDOFF.md).
+
 Test5 uses a new signing key. The accepted fresh installation deletes the old
 clone's local data, so you may need to sign in again. Keep stock Netflix installed.
 
